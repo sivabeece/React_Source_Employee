@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #e9eaec;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(27, 25, 25);
+}
+
+.App-link {
+  color: #dceaee;
+}
+
+.emp-container {
+  display: flex;
+  min-height: 10vh;
+  justify-content: space-between;
+  flex: 1;
+  background-color: #ffffff;
+  padding: 2% 5%;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 4px 0px #e2e2e2;
+  border-radius: 5px;
+  transform: translateY(10px);
+}
+.emp-add {
+  display: flex;
+  width: 100%;
+  padding-left: 1%;
+}
+.emp-form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+}
+.form-control {
+  margin-bottom: 3% !important;
+}
+.manager {
+  display: flex;
+  align-items: center;
+}
+.form-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.form-button button {
+  margin-right: 10px;
+}
+.alert span {
+  position: relative;
+  vertical-align: middle;
+  height: 100%;
+  padding-top: 50%;
+  margin-top: 100%;
+  font-size: 2rem;
+}
+.table {
+  box-shadow: 2px 2px 5px #e2e2e2;
+  margin-bottom: 1%;
+}
+.table-responsive {
+  width: 80% !important;
+}
